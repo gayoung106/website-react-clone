@@ -1,0 +1,12 @@
+.main-swiper {
+    height: 660px;
+    margin-bottom: 40px;
+    border-style: none;
+}
+
+.swiper-img {
+    display: block;
+    margin: auto;
+    height: 660px;
+}
+

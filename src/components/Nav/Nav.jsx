@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
+      <>
     <div className='nav-wrapper'>
       <div className='nav-items'>
       <Link to="/women" className="nav-item">WOMEN</Link>
@@ -19,7 +20,10 @@ const Nav = () => {
 
 
       </div>
+
     </div>
+
+      </>
   )
 }
 
