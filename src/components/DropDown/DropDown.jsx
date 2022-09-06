@@ -23,7 +23,7 @@ const datas = [
 const DropDown = () => {
     return (
         <>
-            <ul>
+            <ul className="drop-menu">
                 <Text content="Outer" fontSize="10pt"/>
             {datas.map((data) => {
                 return (
