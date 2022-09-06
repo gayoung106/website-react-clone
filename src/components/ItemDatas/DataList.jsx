@@ -14,8 +14,8 @@ const NewItem = (props) => {
             {newDatas.map((newData) => {
                 return (
                     <div className="items">
-                        <Link className="item" to={newData.path}>
-                            <img className="item-img" src={newData.img} />
+                        <Link to={newData.path} className="item">
+                            <img className={newData.className} src={newData.img} />
                             <br />
                             <Text content={newData.brand} fontSize="10pt" fontWeight="700" color="#000"/>
                             <br />

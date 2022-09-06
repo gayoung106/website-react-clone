@@ -3,9 +3,9 @@ import Title from '../../components/Title/Title'
 
 const Women = () => {
   return (
-    <div>
+    <>
         <Title content="WOMEN" />
-    </div>
+    </>
   )
 }
 

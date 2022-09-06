@@ -9,7 +9,7 @@ const newDatas = [
     title: '체크 패턴 라운드넥 니트 베스트',
     price: '47,700원',
     img: '/img/newitem.jpg',
-    path:'/',
+    path:'/men',
     className: "new-item"
   },
   {
@@ -57,6 +57,7 @@ const NewItem = () => {
 
   return (
     <>
+      <DataList newDatas = {newDatas} />
       <DataList newDatas = {newDatas} />
       <DataList newDatas = {newDatas} />
     </>
