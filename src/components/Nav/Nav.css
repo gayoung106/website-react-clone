@@ -19,7 +19,7 @@
 
 }
 
-.nav-wrapper::after {
+/* .nav-wrapper::after {
     content: "div";
     position: absolute;
     width: 100%;
@@ -29,7 +29,7 @@
     z-index: 10;
     top: 0;
 
-}
+} */
 
 .nav-item:hover {
     color: #dddddd;

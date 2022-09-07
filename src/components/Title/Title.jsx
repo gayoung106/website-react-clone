@@ -7,7 +7,7 @@ const Title = (props) => {
   return (
     <>
     <div className="title" style={{textAlign:"center", paddingTop:"50px"}}>
-        <Text content={content} fontSize="30px" fontWeight="500"/>
+        <Text content={content} fontSize="40px" fontWeight="500"/>
     </div>
 
     </>
